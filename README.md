@@ -1,2 +1,1 @@
-# semoksimontok
-semoksimontok
+# [semoksimontok](https://semoksimontok.pages.dev)
