@@ -47,7 +47,7 @@ export const GET: APIRoute = async ({ site }) => {
       ? thumbnailUrl
       : `${baseUrl}${thumbnailUrl}`;
 
-    const imageCaptionDescription = `Nonton streaming video bokep viral ${video.title} yang terbaru di link ${nama} kategori ${video.category}`;
+    const imageCaptionDescription = `Video bokep viral ${video.title} yang terbaru kategori ${video.category} nonton streaming di link ${nama}`;
 
 
     if (absoluteThumbnailUrl && videoDetailUrl) {

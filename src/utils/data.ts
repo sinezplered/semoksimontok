@@ -1,7 +1,6 @@
 // src/utils/data.ts
-import rawAllVideos from '../data/allVideos';
+import videosData from '../data/videos.json';
 
-// Definisi interface untuk setiap objek video
 export interface VideoData {
   id: string;
   title: string;
@@ -16,10 +15,9 @@ export interface VideoData {
   tags: string;
   previewUrl?: string;
   duration?: string;
-
 }
 
 export async function getAllVideos(): Promise<VideoData[]> {
-  console.log(`[getAllVideos] Data dari allVideos.ts dimuat. Total video: ${rawAllVideos.length}`);
-  return rawAllVideos as VideoData[];
+  console.log(`[getAllVideos] Data video dimuat. Total video: ${videosData.length}`);
+  return videosData as VideoData[];
 }

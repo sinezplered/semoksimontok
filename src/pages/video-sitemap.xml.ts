@@ -41,7 +41,7 @@ export const GET: APIRoute = async ({ site }) => {
     const videoModifiedDate = video.dateModified || videoPublishedDate;
 
     const videoTitleForSitemap = video.title || 'Video';
-    const videoDescriptionForSitemap = `Nonton streaming video bokep viral ${video.title} yang terbaru di link ${nama} kategori ${video.category}`;
+    const videoDescriptionForSitemap = `Video bokep viral ${videoTitleForSitemap} yang terbaru nonton streaming di link ${nama}`;
 
     if (videoTitleForSitemap && videoDescriptionForSitemap && absoluteThumbnailUrl && absoluteEmbedUrl) {
       videoEntries.push(`
